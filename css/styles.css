@@ -28,20 +28,21 @@ a {
 
 /* Header part */
 .logo{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 .logo-decoration{
-    color: var(--primary-brand);
+    /* color: var(--primary-brand); */
+    color: #4d5ae5;
 }
 .link-decoration{
-    color: var(--dark);
+    /* color: var(--dark); */
+    color: #2e2f42;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -49,6 +50,9 @@ a {
 .items-decoration .link-decoration{
     color: var(--text);
     font-weight: 400;
+}
+.contact{
+    font-style: normal;
 }
 .link-decoration:hover,
 .link-decoration:focus{
@@ -76,7 +80,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.64px;
     border: none;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     background-color: var(--primary-brand);
 }
 .hero-btn:hover,
@@ -101,6 +105,9 @@ color: var(--dark);
 /* Team part */
 .team{
     background-color: var(--light);
+}
+.team-list{
+    background-color: var(--white-background);
 }
 .team-title{
     color: var(--dark);
@@ -128,8 +135,10 @@ color: var(--dark);
     background-color: var(--dark);
 }
 .site-bootom .logo{
-    color: var(--cloud, #F4F4FD);
+    /* color: var(--light); */
+    color: #f4f4fd;
 }
 .site-bootom .general-text{
-    color: var(--light);
+    /* color: var(--light); */
+    color: #f4f4fd;
 }
