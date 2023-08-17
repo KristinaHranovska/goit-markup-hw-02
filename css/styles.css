@@ -17,7 +17,8 @@ body {
     font-family: 'Roboto', sans-serif;
     /* color: var(--text); */
     color: #434455;
-    background-color: var(--white-background);
+    /* background-color: var(--white-background); */
+    background-color: #FFFFFF;
 }
 
 ul {
