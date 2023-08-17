@@ -56,7 +56,7 @@ a {
 }
 
 /* Hero part */
-.hero-background {
+.hero {
     background-color: var(--hero-background);
     text-align: center;
 }
@@ -99,7 +99,7 @@ color: var(--dark);
 }
 
 /* Team part */
-.team-background{
+.team{
     background-color: var(--light);
 }
 .team-title{
@@ -124,12 +124,12 @@ color: var(--dark);
 }
 
 /* Footer part */
-.site-footer{
+.site-bootom{
     background-color: var(--dark);
 }
-.site-footer .logo{
+.site-bootom .logo{
     color: var(--cloud, #F4F4FD);
 }
-.site-footer .general-text{
+.site-bootom .general-text{
     color: var(--light);
 }
